@@ -1,0 +1,8 @@
+paths:
+  - file: ./ai4i_clean.csv
+
+transformations:
+  - read_delimited:
+      delimiter: ','
+      encoding: utf8
+      include_path_column: false
